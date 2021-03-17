@@ -5,15 +5,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>高德地图天气插件</title>
 	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.0&key=4a8c47061318106e5ae0c2d19ebc819e"></script>
+	<script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.0&key=您的key"></script>
 	<link rel="stylesheet" href="css/base-wer.css">
 </head>
 <body>
 	<div class="g-around-list g-weater-map"></div>
 	<script type="text/javascript" src="js/wer.js"></script>
 	<script>
-	var address_city = '武汉市'
-  	weather(address_city,$(".g-weater-map"))  //前面一个是地点，后面的是插入天气组件的dom元素
+		var address_city = '武汉市'  // 目标城市
+	  	weather(address_city,$(".g-weater-map"))  //前面一个是地点，后面的是插入天气组件的dom元素
 	</script>
 </body>
 </html>
